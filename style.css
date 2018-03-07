@@ -1,0 +1,30 @@
+.mynavbar{
+    position: absolute;
+    transform: translateX(calc(50vw - 50%));
+}
+.heightnav{
+    height: 8vh;
+    min-height: 20px;
+    padding:0;
+}
+.white{ 
+    background-color: white; 
+    position: relative;
+    transform:translateY(-140px); 
+    padding-top: 0px;
+    padding-right: 1000px;
+    padding-bottom: 140px;
+    padding-left: 85px;  
+}
+
+.rectangle{
+    width:100vw;
+	height:140px;
+    background:white;
+    transform: translateY(-28vh);
+    border-bottom: 3px solid rgb(50, 196, 13);
+
+}
+.miam-miam{
+    background-image: url("https://d1xobqghtjbh1g.cloudfront.net/assets/dist/img/home/menulog/hero-banner.jpg") ;
+  }
