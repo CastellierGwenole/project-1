@@ -1,11 +1,11 @@
 .mynavbar{
-    position: absolute;
+    position:absolute;
     transform: translateX(calc(50vw - 50%));
 }
 .heightnav{
-    height: 8vh;
-    min-height: 20px;
+    min-height: 50px;
     padding:0;
+    background-color: blue;
 }
 .white{ 
     background-color: white; 
@@ -19,12 +19,43 @@
 
 .rectangle{
     width:100vw;
-	height:140px;
+	height:14vh;
     background:white;
-    transform: translateY(-28vh);
-    border-bottom: 3px solid rgb(50, 196, 13);
+    text-align: center;
+    border-bottom: 4px solid rgb(50, 196, 13);
+    font-size: 4vw;
 
 }
-.miam-miam{
+.miam-miam1{
     background-image: url("https://d1xobqghtjbh1g.cloudfront.net/assets/dist/img/home/menulog/hero-banner.jpg") ;
+    box-sizing: inherit;
+    overflow: hidden; 
+    max-height: 40vh;
+}
+.miam-miam2{
+    background-image: url("https://d1xobqghtjbh1g.cloudfront.net/assets/dist/img/home/menulog/hero-banner.jpg") ;
+    box-sizing: inherit;
+    overflow: hidden; 
+    height: 21.5vh;
+    min-height: 17vh;
+}
+
+.montxt1 {
+    z-index: 1;
+    position: absolute;
+    color: white !important;
+    font-size: 3vw;
+    top: 20%;
+    left: 25vw;
+    text-align:center;
   }
+  .montxt2 {
+    z-index: 1;
+    position: absolute;
+    color: white !important;
+    font-size: 3vw;
+    top: 14%;
+    left: 25vw;
+    text-align:center;
+  }
+
