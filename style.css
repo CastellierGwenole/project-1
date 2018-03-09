@@ -3,59 +3,220 @@
     transform: translateX(calc(50vw - 50%));
 }
 .heightnav{
-    min-height: 50px;
+    min-height: 11vh;
     padding:0;
-    background-color: blue;
 }
-.white{ 
-    background-color: white; 
-    position: relative;
-    transform:translateY(-140px); 
-    padding-top: 0px;
-    padding-right: 1000px;
-    padding-bottom: 140px;
-    padding-left: 85px;  
+
+
+
+.menunav{
+   font-weight: 700;
+   color: rgb(48, 187, 14); 
+}
+.menunav:hover{
+    color: rgb(48, 156, 21); 
+    text-decoration: underline;
+}
+.menudec{
+   transform:translateX(-5vw);
 }
 
 .rectangle{
     width:100vw;
-	height:14vh;
+	height:25vh;
     background:white;
     text-align: center;
     border-bottom: 4px solid rgb(50, 196, 13);
-    font-size: 4vw;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(95, 94, 94);
+    padding-top: 15px;
 
 }
 .miam-miam1{
-    background-image: url("https://d1xobqghtjbh1g.cloudfront.net/assets/dist/img/home/menulog/hero-banner.jpg") ;
-    box-sizing: inherit;
     overflow: hidden; 
-    max-height: 40vh;
+    height: 42vh;
+    width: 100%;
 }
 .miam-miam2{
-    background-image: url("https://d1xobqghtjbh1g.cloudfront.net/assets/dist/img/home/menulog/hero-banner.jpg") ;
-    box-sizing: inherit;
+
     overflow: hidden; 
-    height: 21.5vh;
-    min-height: 17vh;
-}
+    height: 23vh;
+    width: 100%;
+} 
 
 .montxt1 {
     z-index: 1;
+    font-weight: 900;
     position: absolute;
     color: white !important;
-    font-size: 3vw;
+    font-size: 4.5vw;
+    text-shadow: -1px 2px 0 rgba(0,0,0,.23);
     top: 20%;
-    left: 25vw;
+    left: 28vw;
     text-align:center;
+    line-height: 10vh;
   }
-  .montxt2 {
+.montxt2 {
     z-index: 1;
+    font-weight: 900;
     position: absolute;
     color: white !important;
-    font-size: 3vw;
+    font-size: 9vw;
+  
+    text-shadow: -1px 2px 0 rgba(0,0,0,.23);
     top: 14%;
-    left: 25vw;
+    left: 9vw;
     text-align:center;
+    line-height: 30px;
   }
+.tailletxt1{
+    border-bottom: 4px solid rgb(51, 180, 19);
+    font-size: 2vw;
+    transform:translateY();
+    
+}
+.tailletxt2{
+    border-bottom: 3.5px solid rgb(51, 180, 19);
+    font-size: 4.5vw;
+    transform:translateY();
+}
 
+.chrchbr{
+    justify-content: center;
+    transform:translateX(5%)
+}
+.tailbr{
+    height:8.5vh;
+    width:55vw;
+    min-width: 220px;
+    border-radius: 2px;     
+}
+.tailbr2{
+    height:7vh;
+    width:10vw;
+    position:absolute;
+    transform:translate( -10.50vw, 0.75vh);
+    border-radius: 0; 
+}
+.redimmob{
+    height:32vh;
+}
+.forpad{
+    padding-top: 10vh;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul 
+{
+list-style-type:none;
+color: #7D8080;
+font-family: Hind Vadodara,Helvetica,Arial,sans-serif; 
+}
+
+li
+{
+margin-left: 15vh;
+margin-bottom: 2vh;
+font-size: 1.8vh;
+}
+.dropdown-menu
+{
+font-size: 1.14286rem;
+font-weight: 500;
+font-family: Aspira,Times New Roman,Times,serif;
+color: #87898A;
+position: relative;
+
+
+}
+
+.footer
+{
+background-color: #EAEAEA;
+
+}
+
+.partone
+{
+display: flex;
+flex-direction: row;
+margin-left: 10vh;
+}
+.h
+{
+margin-left: 21vh;
+margin-bottom: 6vh;
+font-size: 2vh;
+color: #535353;
+font-family: Hind Vadodara,Helvetica,Arial,sans-serif;
+font-weight: bold;
+margin-top:7vh;
+}
+.h2
+{
+
+}
+
+.dou 
+{
+color: #535353;
+font-weight: bold;
+font-size: 2vh;
+text-align: center;
+margin-top: 5vh;
+margin-bottom: 4vh;
+}
+.yes
+{
+display: flex;
+justify-content: center
+}
+.btn--outline 
+{
+background-color: transparent;
+border: 2px solid #26BF22;
+color: #22AA1E;
+}
+.alrdy
+{
+color: #535353;
+font-size: 1.7vh;
+text-align: center;
+margin-top: 5vh;
+
+}
+.manage
+{
+color:green;
+text-decoration: underline;
+font-weight: bold;
+}
