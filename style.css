@@ -106,6 +106,9 @@
     padding-top: 10vh;
     justify-content: center;
 }
+.txtchrche{
+    font-weight: 950;
+}
 
 
 
@@ -134,19 +137,22 @@
 
 
 
-
-ul 
+.rm 
 {
 list-style-type:none;
 color: #7D8080;
 font-family: Hind Vadodara,Helvetica,Arial,sans-serif; 
 }
 
-li
+.rm li 
 {
 margin-left: 15vh;
 margin-bottom: 2vh;
 font-size: 1.8vh;
+}
+.btn-secondary
+{
+width: 50vh;
 }
 .dropdown-menu
 {
@@ -155,8 +161,6 @@ font-weight: 500;
 font-family: Aspira,Times New Roman,Times,serif;
 color: #87898A;
 position: relative;
-
-
 }
 
 .footer
@@ -170,6 +174,7 @@ background-color: #EAEAEA;
 display: flex;
 flex-direction: row;
 margin-left: 10vh;
+padding-top: 4vh;
 }
 .h
 {
@@ -179,13 +184,17 @@ font-size: 2vh;
 color: #535353;
 font-family: Hind Vadodara,Helvetica,Arial,sans-serif;
 font-weight: bold;
-margin-top:7vh;
 }
-.h2
+.apple
 {
-
+height: 4vh;
+width: auto; 
 }
-
+.android
+{
+height: 4vh;
+width: auto;
+}
 .dou 
 {
 color: #535353;
@@ -219,4 +228,29 @@ margin-top: 5vh;
 color:green;
 text-decoration: underline;
 font-weight: bold;
+}
+.assis
+{
+color: #535353;
+font-weight: bold;
+font-size: 2vh;
+text-align: center; 
+}
+.help
+{ 
+color:green;
+font-size: 1.7vh;
+text-decoration: underline;
+text-align: center;
+}
+.eatw
+{
+color:green;
+font-size: 1.7vh;
+text-decoration: underline;
+}
+.eatg
+{
+color:green;
+font-size: 1.7vh;
 }
