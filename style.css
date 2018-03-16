@@ -115,6 +115,7 @@
     height:7.5vh;
     width:55vw;
     min-width: 220px;
+    min-height: 50px;
     border-radius: 2px;     
 }
 .tailbr2{
@@ -124,6 +125,7 @@
     transform:translate( -11.5vw, 0.75vh);
     border-radius: 0; 
     min-width: 40px;
+    min-height: 40px;
 }
 .redimmob{
     height:200px;
